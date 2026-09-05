@@ -1,11 +1,11 @@
 ---
 title: "RPDev Feed"
-description: "Sovereign, privacy-first, extensible feed provider for Android home screens and third-party launchers."
+description: "Sovereign, privacy-first minus-one screen feed engine elevating traditional RSS into a dynamic, rich mobile dashboard."
 ---
 
-# RPDev Feed
+# 🌟 RPDev Feed
 
-> An open-source, modular, and privacy-respecting Google Discover alternative built on Jetpack Compose and the Android Launcher Overlay AIDL protocol.
+> **The Spotlight of the Show: Transforming Basic RSS into an Intelligent, Privacy-Respecting Minus-One Dashboard.**
 
 ```
   ███████╗███████╗███████╗██████╗     ███████╗███████╗███████╗██████╗ 
@@ -18,34 +18,55 @@ description: "Sovereign, privacy-first, extensible feed provider for Android hom
 
 ---
 
-## What is RPDev Feed?
+## 🎯 The Star of the Show: Beyond Flat RSS
 
-RPDev Feed attaches directly to the **-1 (minus-one) screen** of your launcher, providing dynamic informational cards, device telemetry, weather radar, and customizable widgets without commercial ads, clickbait, or behavioral profiling.
+For decades, RSS has been the gold standard of open web syndication. But traditional RSS readers force you into flat, chronological list views disconnected from the rest of your digital life. Meanwhile, commercial launcher feeds like Google Discover invade your privacy with intrusive behavioral profiling, clickbait headlines, and sponsored tracking pixels.
 
-### Key Pillars:
-- 📱 **Universal Launcher Compatibility**: Works with **[RPDev Launcher](https://launcher.iamrp.dev)**, Nova Launcher, Lawnchair, and any launcher implementing the standard Google Overlay protocol (`com.android.launcher3.WINDOW_OVERLAY`).
-- 🧩 **Modular Plugin Ecosystem**: Extend your feed with swappable modules from the **[RPDev Repository](https://repo.launcher.iamrp.dev)**.
-- 🎨 **Modern Jetpack Compose UI**: Silky smooth 120Hz card rendering, Material You dynamic color harmonizing, and dark mode parity.
-- 🔒 **Absolute Privacy**: Zero telemetry, zero ad tracking. All sensor readings and RSS data are fetched directly by your device.
+**RPDev Feed bridges these worlds.** It delivers the rich, dynamic visual experience of a modern intelligent stream while upholding total user sovereignty and zero-tracking privacy:
+
+- 📰 **RSS Reimagined**: Ingests raw RSS/Atom feeds with on-device HTML parsing, distraction-free reading, and smart headline summarization.
+- ⚡ **Dynamic Context Cards**: Seamlessly blends RSS feeds with real-time on-device context: **[Privacy Weather](https://repo.launcher.iamrp.dev/catalog/modules/weather)**, **[Hardware Diagnostics](https://repo.launcher.iamrp.dev/catalog/modules/sensors)**, and **[Calendar Agendas](https://repo.launcher.iamrp.dev/catalog/modules/calendar)**.
+- 🧩 **Extensible Module Ecosystem**: Query, install, reorder, and configure community modules from the **[RPDev Repository](https://repo.launcher.iamrp.dev)** directly inside the feed UI.
+- 🔒 **Sovereign & On-Device**: Zero intermediate proxy servers. All feed URLs, weather endpoints, and IoT requests are fetched directly from your mobile device.
 
 ---
 
-## Documentation Index
+## 📱 Visual Showcase: DevPixel16 (Android 16)
 
-| Guide | Description | Link |
+| -1 Screen Overlay & Radar | Live Article Stream | Main Hub Telemetry |
+|:---:|:---:|:---:|
+| <img src="/static/images/feed_overlay_devpixel16.png" width="260" alt="-1 Screen Overlay"/> | <img src="/static/images/feed_overlay_articles_devpixel16.png" width="260" alt="Articles Stream"/> | <img src="/static/images/feed_main_devpixel16.png" width="260" alt="Main Hub Telemetry"/> |
+
+| In-App Module Catalog | Active Plugin Manager | Data Sources & Settings |
+|:---:|:---:|:---:|
+| <img src="/static/images/feed_catalog_devpixel16.png" width="260" alt="In-App Module Catalog"/> | <img src="/static/images/feed_plugins_devpixel16.png" width="260" alt="Plugin Manager"/> | <img src="/static/images/feed_datasources_devpixel16.png" width="260" alt="Data Sources"/> |
+
+---
+
+## 🚀 Core Architectural Highlights
+
+1. **Universal AIDL Overlay Bridge**: Interfaces over Android's `com.android.launcher3.WINDOW_OVERLAY` AIDL contract. Works seamlessly with **[RPDev Launcher](https://launcher.iamrp.dev)**, Nova Launcher, Lawnchair, and any launcher supporting the Google Overlay protocol.
+2. **High-Performance Jetpack Compose UI**: Silky smooth 120Hz scrolling, predictive drag-to-dismiss animations, and Material You dynamic color harmonizing.
+3. **Dynamic In-App Store**: Browse and install modules live from `repo.launcher.iamrp.dev` without sideloading or rebuilding the app.
+
+---
+
+## 🧭 Documentation Index
+
+| Section | Topic | Link |
 |---|---|---|
-| **Overlay Bridge Protocol** | AIDL architecture, IPC handshake, and window attachment | [Overlay Bridge](protocol/overlay-bridge.md) |
-| **Card Rendering Engine** | Compose UI card hierarchy and JSON schema v1 | [Card Engine](protocol/card-engine.md) |
-| **Module Architecture** | Dynamic DEX loading and HubPluginRegistry | [Module System](plugins/module-system.md) |
-| **Developer Tutorial** | Build your first custom feed card module | [Developer Guide](plugins/developer-guide.md) |
-| **Privacy Architecture** | Zero tracking guarantees and local storage | [Privacy & Telemetry](settings/telemetry-privacy.md) |
-| **Downloads** | Download official APK releases | [Download APK](download.md) |
+| 🌟 **The RSS Evolution** | How RPDev Feed transforms RSS into a modern dynamic stream | [RSS Evolution](spotlight/rss-evolution.md) |
+| 🔌 **Overlay Protocol** | AIDL interface, IPC handshake, and window attachment mechanics | [Overlay Bridge](protocol/overlay-bridge.md) |
+| 🎴 **Card Engine** | HubCardData composite models, chip tags, and timeline layouts | [Card Engine](protocol/card-engine.md) |
+| 🧩 **Module Architecture** | Dynamic registration, SharedPreferences configs, and lifecycle | [Module System](plugins/module-system.md) |
+| 🛠️ **Developer Tutorial** | Step-by-step guide to writing your own HubPlugin | [Developer Guide](plugins/developer-guide.md) |
+| 🛡️ **Privacy Guarantees** | Audit of network isolation, local storage, and zero telemetry | [Privacy Audit](settings/telemetry-privacy.md) |
+| 📥 **Download APK** | Official signed builds of RPDev Feed (v1.2-beta) | [Download v1.2-beta](download.md) |
 
 ---
 
-## Ecosystem Services
+## 🌐 Connected Ecosystem
 
 - **RPDev Launcher**: [launcher.iamrp.dev](https://launcher.iamrp.dev)
-- **RPDev Feed Portal**: [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev)
 - **Module Repository**: [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev)
-- **Edge Delivery CDN**: [cdn.iamrp.dev](https://cdn.iamrp.dev)
+- **Edge CDN & Manifests**: [cdn.iamrp.dev](https://cdn.iamrp.dev)

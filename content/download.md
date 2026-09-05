@@ -1,29 +1,37 @@
 ---
 title: "Download RPDev Feed"
-description: "Download the latest APK releases for RPDev Feed."
+description: "Download official signed releases of RPDev Feed (v1.2-beta) for Android 14 and Android 16."
 ---
 
-# Download RPDev Feed
+# 📥 Download RPDev Feed
 
-Download the latest stable APK and install on any device running Android 9.0 (API 28) or higher.
-
----
-
-## Releases
-
-| Release | Version | Build | Architecture | Link |
-|---|---|---|---|---|
-| **Latest Stable** | `v1.0.0` | Production Release | universal (arm64, armv7, x86_64) | [Download APK](https://repo.launcher.iamrp.dev/apks/RPDevFeed-v1.0.0.apk) |
-| **Preview / Beta** | `v1.1.0-beta1` | Next-Gen Compose | universal | [Download APK](https://repo.launcher.iamrp.dev/apks/RPDevFeed-v1.1.0-beta1.apk) |
+Download the official signed release of **RPDev Feed**.
 
 ---
 
-## Compatibility Matrix
+## 📦 Latest Release: `v1.2-beta`
 
-RPDev Feed is verified compatible with the following home screen launchers:
+| Attribute | Specification |
+| :--- | :--- |
+| **Version Name** | `1.2.0-beta` |
+| **Version Code** | `1200` |
+| **Target SDK** | Android 16 (API 37) |
+| **Minimum SDK** | Android 14 (API 34) |
+| **Build Architecture** | `universal` (arm64-v8a, x86_64) |
+| **Package ID** | `iamrp.dev.feed` |
 
-- ✅ **RPDev Launcher** (Native 1-click integration)
-- ✅ **Omega Launcher**
-- ✅ **Neo Launcher**
-- ✅ **Lawnchair 12+** (Select "Client" in Feed settings)
-- ✅ **Nova Launcher Prime** (via Nova Google Companion emulation)
+### Download Mirrors:
+- **Direct APK Download**: [https://cdn.iamrp.dev/feed/releases/RPDev-Feed-v1.2-beta.apk](https://cdn.iamrp.dev/feed/releases/RPDev-Feed-v1.2-beta.apk)
+- **GitHub Releases**: [https://github.com/RPDevs-Builds/RPDev-Feed/releases/tag/v1.2-beta](https://github.com/RPDevs-Builds/RPDev-Feed/releases/tag/v1.2-beta)
+
+---
+
+## 🛡️ Verification & Security
+Verify your APK using SHA-256:
+```bash
+sha256sum RPDev-Feed-v1.2-beta.apk
+```
+Expected Certificate Fingerprint (SHA-256):
+```
+61:ED:37:7E:85:D3:86:A8:DF:EE:6B:86:4B:D8:5B:0B:FA:A5:AF:81:66:35:E9:CE:8B:2A:FB:D2:EE:94:FB:99
+```
