@@ -30,8 +30,10 @@ Download the official signed release of **RPDev Feed**.
 Verify your APK using SHA-256:
 ```bash
 sha256sum RPDev-Feed-v1.2-beta.apk
+# Expected SHA-256:
+36c38190c952e4568f542cb734c7c8113f4c409d57741efa40e6503549cd107f
 ```
 Expected Certificate Fingerprint (SHA-256):
 ```
-61:ED:37:7E:85:D3:86:A8:DF:EE:6B:86:4B:D8:5B:0B:FA:A5:AF:81:66:35:E9:CE:8B:2A:FB:D2:EE:94:FB:99
+CF:8E:B4:52:86:C3:08:CB:F6:70:5E:72:4A:01:DD:E8:EB:11:FB:C6:CA:0B:49:B4:9A:45:1D:85:F8:83:D8:83
 ```
