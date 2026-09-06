@@ -61,12 +61,12 @@ For decades, RSS has been the gold standard of open web syndication. But traditi
 | 🧩 **Module Architecture** | Dynamic registration, SharedPreferences configs, and lifecycle | [Module System](plugins/module-system.md) |
 | 🛠️ **Developer Tutorial** | Step-by-step guide to writing your own HubPlugin | [Developer Guide](plugins/developer-guide.md) |
 | 🛡️ **Privacy Guarantees** | Audit of network isolation, local storage, and zero telemetry | [Privacy Audit](settings/telemetry-privacy.md) |
-| 📥 **Download APK** | Official signed builds of RPDev Feed (v1.2-beta) | [Download v1.2-beta](download.md) |
+| 📥 **Download APK** | Official signed builds of RPDev Feed (v1.2.1 GA) | [Download v1.2.1](download.md) |
 
 ---
 
 ## 🌐 Connected Ecosystem
 
 - **RPDev Launcher**: [launcher.iamrp.dev](https://launcher.iamrp.dev)
-- **Module Repository**: [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev)
+- **Module Repository**: [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev)
 - **Edge CDN & Manifests**: [cdn.iamrp.dev](https://cdn.iamrp.dev)
