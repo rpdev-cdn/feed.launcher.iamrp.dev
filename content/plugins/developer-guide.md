@@ -60,4 +60,4 @@ In your `AndroidManifest.xml`, declare your service with the `iamrp.dev.feed.MOD
 
 ## 4. Submitting to Repository
 
-Once built and tested on emulator or device, submit your module PR to the **[RPDev Feed Modules Repository](https://repo.launcher.iamrp.dev)** for inclusion in the master catalog.
+Once built and tested on emulator or device, submit your module PR to the **[RPDev Feed Modules Repository](https://launcher.repo.iamrp.dev)** for inclusion in the master catalog.

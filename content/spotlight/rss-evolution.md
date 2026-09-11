@@ -59,7 +59,7 @@ Why should weather, hardware diagnostics, and your morning news live in separate
 - **Header**: Privacy Weather radar for your city.
 - **Diagnostics**: Real-time battery charging wattage and memory headroom.
 - **Top Stories**: Filtered, clean headlines from your trusted independent publications.
-- **Alerts**: Keywords detected by your [Web Scraper](https://repo.launcher.iamrp.dev/catalog/modules/web-scraper) or failed container health checks from your [Docker Monitor](https://repo.launcher.iamrp.dev/catalog/modules/docker-telemetry).
+- **Alerts**: Keywords detected by your [Web Scraper](https://launcher.repo.iamrp.dev/catalog/modules/web-scraper) or failed container health checks from your [Docker Monitor](https://launcher.repo.iamrp.dev/catalog/modules/docker-telemetry).
 
 ### 3. Freedom of Choice
-You can toggle any module off, adjust its polling frequency, or install third-party plugins from [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev) in seconds.
+You can toggle any module off, adjust its polling frequency, or install third-party plugins from [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev) in seconds.
